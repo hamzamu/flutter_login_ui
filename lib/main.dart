@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   runApp(const MainApp());
@@ -22,13 +23,17 @@ class MainApp extends StatelessWidget {
                   children: [
                     Text(
                       "Manage Your Routine",
-                      style:
-                          TextStyle(fontSize: 20, fontWeight: FontWeight.w300),
+                      style: GoogleFonts.abel(
+                        fontSize: 30,
+                        fontWeight: FontWeight.w300,
+                      ),
                     ),
                     SizedBox(
                       height: 15,
                     ),
-                    Text('Start Now'),
+                    Text('Start Now',
+                        style: GoogleFonts.akronim(
+                            fontSize: 15, fontWeight: FontWeight.w400)),
                     SizedBox(
                       height: 25,
                     ),
